@@ -1,0 +1,36 @@
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  background-color: transparent;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style: none;
+  padding: 0;
+}
+
+button {
+  background: transparent;
+  cursor: pointer;
+}
+
+button:focus {
+  outline: none;
+}
+
+.container {
+  width: 100%;
+  max-width: 1230px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
